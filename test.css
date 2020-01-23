@@ -1,0 +1,39 @@
+.body{
+    background-color: black;
+}
+
+.bar{
+    background-color: red;
+    width:25%;
+    height:100%;
+    position:absolute;
+    left:0vh;
+    top:0vh;
+    opacity: 0%;
+}
+#bar2{
+    left:25%;
+    background-color:black;
+    opacity: 0%;
+}
+#bar3{
+    left:50%;
+    background-color:red;
+    opacity: 0%;
+}
+#bar4{
+    left:75%;
+    background-color:black;
+    opacity: 0%;
+}
+
+.btn {
+  background-color: rgb(2, 29, 110);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {
+    background-color: lightblue;
+}
